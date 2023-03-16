@@ -16,7 +16,7 @@ public class Practice24_6_TreeMap {
 
 		var map = new TreeMap<Integer , String>();
 		//價格作Key方便取大小
-		map.put(80 , "蘋果");
+		map.put(100 , "蘋果");
 		map.put(30 , "香蕉");
 		map.put(50 , "芒果");
 		map.put(20 , "西瓜");
