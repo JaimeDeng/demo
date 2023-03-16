@@ -1,0 +1,51 @@
+package course;
+
+public class Person {
+	
+	static String id = "00001";
+	String name;
+	int age;
+	String address;
+	
+
+	public static String getPersonId() {
+		return id;
+	}
+
+	public static void setgetPersonId(String id) {
+		Person.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public Person(String setId , String setName){
+		this.name = setName;
+		this.id = setId;
+		this.age = age;
+	}
+
+
+
+}
