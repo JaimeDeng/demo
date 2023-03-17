@@ -4,5 +4,5 @@ package practice;
 public interface LambdaTest {
 	
 //	public void info() ;
-	public int add(int A , int B);
+	public int calcu(int A , int B);
 }
