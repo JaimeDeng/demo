@@ -18,6 +18,7 @@ public class Practice24_6_TreeMap {
 		//價格作Key方便取大小
 		map.put(100 , "蘋果");
 		map.put(30 , "香蕉");
+		map.put(90 , "奇異果");
 		map.put(50 , "芒果");
 		map.put(20 , "西瓜");
 		map.put(200 , "酪梨");
