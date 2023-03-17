@@ -22,6 +22,8 @@ public class Lambda_practice {
 		//可以將method寫入在Consumer類別的object裡面 , 來使用Lambda foreach
 		Consumer<String> foreach = n->System.out.println(n);
 		list.forEach(foreach);
+		System.out.println();
+		System.out.println();
 		
 		System.out.println("=====Lambda物件=====");
 		
