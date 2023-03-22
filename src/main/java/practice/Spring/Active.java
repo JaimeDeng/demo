@@ -1,5 +1,7 @@
 package practice.Spring;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public interface Active {
-	public void fly(String name , int age);
+	public void fly();
 }

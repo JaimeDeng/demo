@@ -15,12 +15,12 @@ public class PicCopy {
 			Console cs = System.console();
 			cs.printf("Please input the file's name(including extension) which you want to copy:\n");
 			String input = cs.readLine();
-			FileInputStream src = new FileInputStream("C:\\JAVA_project\\demo_test\\src\\main\\java\\practice\\IOpractice\\" + input);
+			FileInputStream src = new FileInputStream("C:\\JAVA_project\\Git\\demo\\" + input);
 			BufferedInputStream srcBuf = new BufferedInputStream(src);		//將InputStream添加至Buffer
 			cs.printf("\n");
 			cs.printf("Please input the duplicate file's name(including extension):\n");
 			String output = cs.readLine();
-			FileOutputStream out = new FileOutputStream("C:\\JAVA_project\\demo_test\\src\\main\\java\\practice\\IOpractice\\" + output);
+			FileOutputStream out = new FileOutputStream("C:\\JAVA_project\\Git\\demo\\" + output);
 			BufferedOutputStream outBuf = new BufferedOutputStream(out);		////將OutputStream添加至Buffer
 			System.out.println("File byte: " + src.available());
 			byte[] pic = new byte[src.available()];		//建立一個byte陣列 , 大小為來源的byte

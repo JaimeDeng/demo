@@ -12,7 +12,7 @@ public class FileInputPractice {
 		
 		try {
 			//呼叫FileOutputStream物件 , 並給予路徑及輸入對象檔案
-			FileInputStream obj = new FileInputStream("C:\\JAVA_project\\demo_test\\src\\main\\java\\practice\\InputTest.txt");
+			FileInputStream obj = new FileInputStream("C:\\JAVA_project\\Git\\demo\\test.txt");
 			int b;
 			while((b = obj.read()) != -1) {	//-1為檔案末端 , while讀到-1為止
 				System.out.print((char) b);		//Byte資料轉為字符輸出

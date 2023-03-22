@@ -27,7 +27,7 @@ public class Practice22_4 {
 					System.out.println("Welcom");
 					break;
 				}else {
-					System.out.println("account or password wrong , please enter again");
+					System.out.println("account or password is wrong , please enter again");
 					cs.printf("\n");
 				}
 		} 

@@ -4,6 +4,9 @@ import java.util.Scanner;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.demo.SpringDemoApplication;
+
 import java.util.TreeMap;
 import java.util.Random;
 import java.io.*;
@@ -16,8 +19,13 @@ import java.util.Map.Entry;
 
 @SpringBootApplication
 public class Bird {
+	
+	@Autowired
+	private Active active;
+	
 	public static void main(String[] args) {
+		SpringApplication.run(Bird.class, args);
+		Bird bird = new Bird();
 
-		Active active;
 	}
 }

@@ -12,7 +12,7 @@ public class FileOutputPractice {
 		
 		try {
 			//呼叫FileOutputStream物件 , 並給予路徑及輸出對象檔案
-			FileOutputStream obj = new FileOutputStream("C:\\JAVA_project\\demo_test\\src\\main\\java\\practice\\OutputTest.txt");
+			FileOutputStream obj = new FileOutputStream("C:\\JAVA_project\\Git\\demo\\output.txt");
 			String str = "轟隆隆隆隆隆衝衝衝衝拉風";
 			byte[] bArray = str.getBytes();		//字串轉ByteArray
 			obj.write(bArray);		//將bArray輸出到檔案串流
