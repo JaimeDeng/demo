@@ -17,7 +17,7 @@ public class practice2 {
 		int starNum = 10;
 		
 		for(int i = 1 ; i < starNum ; i++) {
-			list.add(" ");
+			list.add("＊");
 		}
 		list.add("＊");
 		
